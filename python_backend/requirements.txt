@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-multipart
+torch
+torchvision
+pillow
+selenium
+webdriver_manager
+twilio
+python-dotenv
+google-generativeai

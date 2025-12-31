@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/favicon.ico?v=4" />
+  <link rel="shortcut icon" href="/favicon.ico?v=4" />
+  <title>RuralX - Smart Agriculture Ecosystem</title>
+  <meta name="description"
+    content="RuralX empowers farmers with AI-powered crop disease detection, weather alerts, disaster management, and community support." />
+  <meta name="theme-color" content="#059669" />
+  <meta property="og:title" content="RuralX - Smart Agriculture Ecosystem" />
+  <meta property="og:description" content="Empowering farmers with technology" />
+  <meta property="og:type" content="website" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="apple-touch-icon" href="/images/logo.jpg" />
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then((registration) => {
+            console.log('ServiceWorker registration successful');
+          })
+          .catch((err) => {
+            console.log('ServiceWorker registration failed: ', err);
+          });
+      });
+    }
+  </script>
+</body>
+
+</html>
