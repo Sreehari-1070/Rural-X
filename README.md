@@ -159,7 +159,7 @@ npm run dev -- -p 3001
     *   **Phone**: `9988776655`
     *   **OTP**: Any 6 digits (Mock Mode)
 *   **Authorized Admin**:
-    *   **Phone**: `7358372007`
+    *   **Phone**: `7358372237`
     *   **OTP**: Any 6 digits
 *   **Features**: Dashboard Analytics, Farmer Database, Alert Management.
 
